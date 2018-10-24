@@ -46,3 +46,24 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 19. Implement error handling for undefined variables and out-of-bound array access.
 20. When complete - all of your tests should pass. 
 21. Write a README file detailing all steps required to successfully run the application. If you have added additional tests (for Udacious Test Coverage),  provide documentation for what these future features are and what the tests are checking for.
+
+
+## How to Run the Jasmine test
+
+1. Download project to your local drive or clone it to your repo.
+2. Open 'index.html' in a browser.
+3. The Jasmine test suites can be found at the bottom of the page.
+4. Individual test can be run by clicking on them.
+5. The test suite `"RSS Feed"` will check if feeds, url, and name are defined.
+6. The test suite `"The menu"` will check if it is hidden by default, and user can toggle it.
+7. The test suite `"Initial Entries"` will check that at least one entry is loaded.
+8. The test suite `"New Feed Selection"` will check that the content changes when new feed is loaded.
+
+
+## Resources
+
+1. https://www.youtube.com/watch?v=7kOBXPbDmyw
+2. https://stackoverflow.com/questions/5085567/what-is-the-hasclass-function-with-plain-javascript
+3. https://devhints.io/jasmine
+4. https://matthewcranford.com/
+5. https://stackoverflow.com/questions/10527394/how-to-test-a-method-in-jasmine-if-the-code-in-beforeeach-is-asynchronous
